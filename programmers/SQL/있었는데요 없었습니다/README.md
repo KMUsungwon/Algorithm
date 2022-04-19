@@ -38,6 +38,7 @@ ANIMAL_OUTS 테이블은 동물 보호소에서 입양 보낸 동물의 정보�
 |-|-|-|-|-|
 |A350276|	Cat|	2018-01-28 17:51:00|	Jewel|	Spayed Female|
 |A381217|	Dog	|2017-06-09 18:51:00	|Cherokee|	Neutered Male|
+
 SQL문을 실행하면 다음과 같이 나와야 합니다.
 
 |ANIMAL_ID	|NAME|
