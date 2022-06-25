@@ -14,4 +14,3 @@ for _ in range(T):
     n = int(input())
     result = solution(n)
     print(result)
-
