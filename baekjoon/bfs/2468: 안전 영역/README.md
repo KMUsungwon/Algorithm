@@ -23,12 +23,13 @@
 
 또한 위와 같은 지역에서 높이가 6이하인 지점을 모두 잠기게 만드는 많은 비가 내리면 물에 잠기지 않는 안전한 영역은 아래 그림에서와 같이 네 개가 됨을 확인할 수 있다. 
 
-|<span style="color:red">6|	8|	<span style="color:red">2|	<span style="color:red">6|	<span style="color:red">2|
+|<span style="color:red">6</span>|	8|	<span style="color:red">2|	<span style="color:red">6|	<span style="color:red">2|
 |-|-|-|-|-|
 |<span style="color:red">3|	<span style="color:red">2|	<span style="color:red">3|	<span style="color:red">4|	<span style="color:red">6|
 |<span style="color:red">6|	7|	<span style="color:red">3|	<span style="color:red">3|	<span style="color:red">2|
 |7|	<span style="color:red">2|	<span style="color:red">5|	<span style="color:red">3|	<span style="color:red">6|
 |8|	9|	<span style="color:red">5|	<span style="color:red">2|	7|
+
 이와 같이 장마철에 내리는 비의 양에 따라서 물에 잠기지 않는 안전한 영역의 개수는 다르게 된다. 위의 예와 같은 지역에서 내리는 비의 양에 따른 모든 경우를 다 조사해 보면 물에 잠기지 않는 안전한 영역의 개수 중에서 최대인 경우는 5임을 알 수 있다. 
 
 어떤 지역의 높이 정보가 주어졌을 때, 장마철에 물에 잠기지 않는 안전한 영역의 최대 개수를 계산하는 프로그램을 작성하시오. 
