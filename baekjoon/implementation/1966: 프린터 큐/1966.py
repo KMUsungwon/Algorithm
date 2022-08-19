@@ -1,24 +1,25 @@
-T = int(input())
+import sys
+from collections import deque
+input = sys.stdin.readline
+t = int(input())
 
-for _ in range(T):
-    N, idx = map(int, input().split())
-    li = list(map(int, input().split()))
-
-    target = [0 for _ in range(N)]
-    target[idx] = 1
-    
+for _ in range(t):
+    n, m = map(int, input().split())
+    doc = deque(list(map(int, input().split())))
     count = 0
-    while True:
-        if li[0] == max(li):
+
+    while doc:
+        max_num = max(doc)
+        a = doc.popleft()
+        m -= 1
+
+        if a == max_num:
             count += 1
-            if target[0] == 1:
+            if m < 0:
                 print(count)
                 break
-            else:
-                li.pop(0)
-                target.pop(0)
+        
         else:
-            value = li.pop(0)
-            li.append(value)
-            targetIdx = target.pop(0)
-            target.append(targetIdx)
+            doc.append(a)
+            if m < 0:
+                m = len(doc) - 1
